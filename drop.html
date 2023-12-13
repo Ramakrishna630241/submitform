@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Foms</title>
+</head>
+<style>
+    input[type]{
+        width: 10%;
+        padding: 10px;
+        margin: 19px;
+        background-color: black;
+                color: aliceblue;
+    } 
+    h2{font-size: 30px;
+     color: rgb(12, 11, 10);
+     text-align: center;
+    }
+    body{
+
+        background-image: linear-gradient( 75deg,rgba(86, 84, 84, 0.976),rgba(238, 238, 82, 0.932));
+    }
+    .a{
+        color: rgb(110, 221, 221);
+        border-radius: 50px;
+    }
+    #e{
+        display: none;
+        float: left;
+        right: 80%;
+        position: absolute;
+    }
+    #f{
+        display: block;
+        float: right;
+    }
+    
+</style>
+<body>
+    <h2>THIS IS FOMS</h2>
+    <foms>
+        <labul  class="a"> FRIST NAME :</labul>
+        <input  class="a" type="text" placeholder="frist name"><br>
+        <labul  class="a">SECOND NAME :</labul>
+        <input  class="a" type="text" placeholder="second name"><br>
+        <labul  class="a">PASSWORD:</labul>
+        <input  class="a" type="password" placeholder="password"><br>
+        <label  class="a">AGE</label>
+        <input  class="a" type="age" placeholder="age" minlength="1" maxlength="2"><br>
+        <label  class="a">PHONE:</label>
+        <input  class="a" type="phone" minlength="1" maxlength="10" placeholder="1234-567-890" pattern="[1-10] {4} [1-10]{3} [A-Z] {3}"><br>
+        <labul  class="a" >GENDER:</labul><br>
+        <label  class="a">MAIL</label>
+        <input  class="a" type="radio" name="a">
+        <label  class="a">FEMALE</label>
+        <input  class="a" type="radio" name="a"><br>
+        <label  class="a">ABOUT YOU SELF</label><br>
+        <texta  class="a"rea rows="4" cols="20"></textarea><br>
+        <label  class="a">WHICH THE SELECT YOU CROUSE</label><br>
+        <input  class="a" type="checkbox" >CSS<br>
+        <input  class="a" type="checkbox" >JAVA<br>
+        <input  class="a" type="checkbox" >PYTHON<br>
+        <input  class="a" type="checkbox" >HTML<br>
+        <label>CROUSE FIGE</label><br>
+        <select id="f">
+            <option id="e">SELECT YOU CROUSE </option>
+            <option> 15,000</option>
+            <option>10,000</option>
+            <option>5000</option>
+        </select><br>
+        <input type="file" name="UPLOD"accept="Document"><br>
+         <a href="./aaaaaa.html"><input type="button" value="SUBMIT"></a>
+    </foms>
+</body>
+</html>
